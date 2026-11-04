@@ -117,7 +117,6 @@ export interface AboutUsData {
   description: string;
   image: ImageData;
   points: string[];
-  button: LinkData;
 }
 
 export interface ImpactData {

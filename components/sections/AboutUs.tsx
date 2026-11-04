@@ -1,10 +1,9 @@
 import Image from "next/image";
 import type { AboutUsData } from "@/types/templates.types";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { buttonArrow, buttonPrimary } from "@/components/ui/button";
 import { Icon } from "@/components/ui/Icon";
 
-/** Story, four quick points and the button on the left; the waving children in a large rounded frame with an orange frame peeking out behind it on the right */
+/** Story and four quick points on the left; the waving children in a large rounded frame with an orange frame peeking out behind it on the right */
 export const AboutUs = ({ data: about }: { data?: AboutUsData }) => {
   if (!about) return null;
 
@@ -25,10 +24,6 @@ export const AboutUs = ({ data: about }: { data?: AboutUsData }) => {
             ))}
           </ul>
 
-          <a data-reveal href={about.button.href} className={`${buttonPrimary} mt-7 h-12 px-7`}>
-            {about.button.label}
-            <Icon name="LuArrowRight" className={buttonArrow} />
-          </a>
         </div>
 
         <div data-reveal className="relative pb-4 pr-4 sm:pb-6 sm:pr-6">
