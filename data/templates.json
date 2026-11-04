@@ -1,0 +1,634 @@
+{
+  "common": {
+    "theme": {
+      "fonts": {
+        "primary": "var(--font-poppins), Arial, sans-serif",
+        "heading": "var(--font-newsreader), Georgia, serif",
+        "display": "var(--font-gilda-display), Georgia, serif",
+        "quote": "var(--font-source-serif), Georgia, serif",
+        "alt": "var(--font-montserrat), Arial, sans-serif",
+        "dm": "var(--font-dm-sans), Arial, sans-serif",
+        "form": "var(--font-roboto), Arial, sans-serif",
+        "nunito": "var(--font-nunito), Arial, sans-serif"
+      }
+    },
+    "metadata": {
+      "title": "CareHaven Foundation - A Better World For Everyone",
+      "description": "CareHaven Foundation supports underprivileged children and communities through education, healthcare, food, relief and animal welfare programs. Donate, volunteer or partner with us.",
+      "lang": "en"
+    },
+    "globalUI": {
+      "mainNav": "Main navigation",
+      "mobileNav": "Mobile navigation",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "backToTop": "CareHaven Foundation - back to top"
+    },
+    "company": {
+      "contactInfo": [
+        {
+          "icon": "LuMapPin",
+          "title": "Our Location",
+          "lines": [
+            "123 Main Street,",
+            "New York, NY 10001, USA"
+          ],
+          "href": "https://www.google.com/maps/search/?api=1&query=123%20Main%20Street%2C%20New%20York%2C%20NY%2010001%2C%20USA"
+        },
+        {
+          "icon": "LuHeadset",
+          "title": "Support 24/7",
+          "lines": [
+            "+1 0000000000"
+          ],
+          "href": "tel:+10000000000"
+        },
+        {
+          "icon": "LuMail",
+          "title": "Email Address",
+          "lines": [
+            "info@xyz.com"
+          ],
+          "href": "mailto:info@xyz.com"
+        },
+        {
+          "icon": "LuHeartHandshake",
+          "title": "Volunteer With Us",
+          "lines": [
+            "We reply within one working day"
+          ],
+          "href": ""
+        }
+      ],
+      "socialLinks": [
+        {
+          "id": "facebook",
+          "icon": "FaFacebookF",
+          "label": "CareHaven Foundation on Facebook",
+          "url": "https://www.facebook.com/"
+        },
+        {
+          "id": "instagram",
+          "icon": "FaInstagram",
+          "label": "CareHaven Foundation on Instagram",
+          "url": "https://www.instagram.com/"
+        },
+        {
+          "id": "linkedin",
+          "icon": "FaLinkedinIn",
+          "label": "CareHaven Foundation on LinkedIn",
+          "url": "https://www.linkedin.com/"
+        },
+        {
+          "id": "youtube",
+          "icon": "FaYoutube",
+          "label": "CareHaven Foundation on YouTube",
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "id": "x",
+          "icon": "FaXTwitter",
+          "label": "CareHaven Foundation on X",
+          "url": "https://x.com/"
+        }
+      ]
+    },
+    "Footer": {
+      "logo": {
+        "src": "/images/logo-white.webp",
+        "width": 480,
+        "height": 164,
+        "alt": "CareHaven Foundation - A Better World For Everyone"
+      },
+      "tagline": "CareHaven Foundation supports underprivileged children and communities through education, healthcare, food, relief and animal welfare programs.",
+      "menuTitle": "Menu Links",
+      "contactTitle": "Contact",
+      "copyright": "© {year} CareHaven Foundation. All Rights Reserved. Powered by Lestow."
+    }
+  },
+  "categories": {
+    "NGO": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "NGOHeader1": {
+              "brand": {
+                "name": "CareHaven Foundation",
+                "logo": {
+                  "src": "/images/logo.webp",
+                  "alt": "CareHaven Foundation - A Better World For Everyone",
+                  "width": 480,
+                  "height": 164
+                }
+              },
+              "navigation": [
+                {
+                  "label": "Home",
+                  "href": "#home"
+                },
+                {
+                  "label": "About Us",
+                  "href": "#about"
+                },
+                {
+                  "label": "Our Causes",
+                  "href": "#causes"
+                },
+                {
+                  "label": "Gallery",
+                  "href": "#gallery"
+                },
+                {
+                  "label": "Testimonials",
+                  "href": "#testimonials"
+                },
+                {
+                  "label": "FAQs",
+                  "href": "#faq"
+                },
+                {
+                  "label": "Contact Us",
+                  "href": "#contact"
+                }
+              ],
+              "cta": {
+                "label": "Contact Us",
+                "href": "#contact"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "NGOHero1": {
+              "label": "Need Help? We Are Here",
+              "title": [
+                {
+                  "text": "Being a ",
+                  "highlight": false
+                },
+                {
+                  "text": "Life Saver",
+                  "highlight": true
+                },
+                {
+                  "text": " for Someone",
+                  "highlight": false
+                }
+              ],
+              "description": "Education, healthcare, food and relief for children and families in need.",
+              "button": {
+                "label": "Contact Us",
+                "href": "#contact"
+              },
+              "image": {
+                "src": "/images/hero.webp",
+                "alt": "A girl writing in her notebook during a CareHaven learning class"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "NGOAboutUs1": {
+              "label": "About Our NGO",
+              "title": [
+                {
+                  "text": "A Movement Built on ",
+                  "highlight": false
+                },
+                {
+                  "text": "Hope",
+                  "highlight": true
+                },
+                {
+                  "text": " and Humanity",
+                  "highlight": false
+                }
+              ],
+              "description": "We believe in the power of collective compassion. Through dedicated efforts and inclusive programs, we support vulnerable communities and create opportunities for a brighter, more equitable future.",
+              "image": {
+                "src": "/images/about-kids-waving.webp",
+                "alt": "Smiling children waving at the camera"
+              },
+              "button": {
+                "label": "Become a Volunteer",
+                "href": "#contact"
+              },
+              "points": [
+                "Education for every child",
+                "Health camps & nutrition",
+                "Food for hungry families",
+                "Relief when disaster strikes"
+              ]
+            }
+          }
+        },
+        "Impact": {
+          "variants": {
+            "NGOImpact1": {
+              "label": "Why Choose Us",
+              "title": [
+                {
+                  "text": "Make a Better ",
+                  "highlight": false
+                },
+                {
+                  "text": "Tomorrow",
+                  "highlight": true
+                },
+                {
+                  "text": " for Brighter Lives",
+                  "highlight": false
+                }
+              ],
+              "description": "We are a nonprofit that makes it easy and safe to give to projects anywhere in the world, while giving local organizations the tools, training and support they need to become more effective.",
+              "image": {
+                "src": "/images/impact-smiling-girl.webp",
+                "alt": "A smiling girl with her friends"
+              },
+              "mission": {
+                "title": "Our Mission",
+                "text": "We are committed to providing the highest level of care and support, creating lasting change and a better world for future generations."
+              },
+              "stats": [
+                {
+                  "value": "64k",
+                  "label": "Children & families served"
+                },
+                {
+                  "value": "500+",
+                  "label": "Successful campaigns"
+                },
+                {
+                  "value": "240+",
+                  "label": "Donation receipts issued"
+                },
+                {
+                  "value": "430+",
+                  "label": "Monthly donors"
+                }
+              ],
+              "call": {
+                "label": "Call Us Anytime",
+                "value": "+1 0000000000",
+                "href": "tel:+10000000000"
+              }
+            }
+          }
+        },
+        "Causes": {
+          "variants": {
+            "NGOCauses1": {
+              "label": "Our Causes",
+              "title": [
+                {
+                  "text": "Choose Where Your ",
+                  "highlight": false
+                },
+                {
+                  "text": "Support Goes",
+                  "highlight": true
+                }
+              ],
+              "description": "From classrooms to relief camps, every cause is run by our teams on the ground, so your donation reaches the people who need it most.",
+              "cardButton": {
+                "label": "Support This Cause",
+                "href": "#contact"
+              },
+              "causes": [
+                {
+                  "icon": "FaGraduationCap",
+                  "title": "Education Support",
+                  "text": "Access to quality education, learning resources and skill development programs for underprivileged children.",
+                  "image": "/images/cause-education.webp"
+                },
+                {
+                  "icon": "FaBowlFood",
+                  "title": "Hunger Relief",
+                  "text": "Nutritious food and support for families in need, so no child goes to bed hungry.",
+                  "image": "/images/cause-hunger.webp"
+                },
+                {
+                  "icon": "FaPersonDress",
+                  "title": "Women Empowerment",
+                  "text": "Skill training, financial literacy and opportunities for women to build an independent future.",
+                  "image": "/images/cause-women.webp"
+                },
+                {
+                  "icon": "FaStethoscope",
+                  "title": "Health & Nutrition",
+                  "text": "Medical support, health camps and awareness programs for children and families.",
+                  "image": "/images/cause-health.webp"
+                },
+                {
+                  "icon": "FaPaw",
+                  "title": "Animal Welfare",
+                  "text": "Rescue, medical care and adoption programs that keep animals safe and healthy.",
+                  "image": "/images/cause-animal.webp"
+                },
+                {
+                  "icon": "FaHandHoldingHeart",
+                  "title": "Disaster Relief",
+                  "text": "Immediate help during natural disasters and emergencies, so communities can recover and rebuild.",
+                  "image": "/images/cause-disaster.webp"
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "NGOGallery1": {
+              "label": "Our Gallery",
+              "title": [
+                {
+                  "text": "Moments of ",
+                  "highlight": false
+                },
+                {
+                  "text": "Change",
+                  "highlight": true
+                }
+              ],
+              "description": "A glimpse into the lives we are touching: real stories, real people and real impact from our work across communities.",
+              "stat": {
+                "value": "500+",
+                "label": "Campaigns run across communities"
+              },
+              "items": [
+                {
+                  "tag": "Education",
+                  "title": "Learning Every Day",
+                  "image": "/images/gallery-boy-writing.webp",
+                  "alt": "A smiling boy writing in class"
+                },
+                {
+                  "tag": "Health",
+                  "title": "Health Camp Check-ups",
+                  "image": "/images/gallery-doctor-checkup.webp",
+                  "alt": "A doctor checking a young girl"
+                },
+                {
+                  "tag": "Hunger Relief",
+                  "title": "A Warm Meal",
+                  "image": "/images/gallery-boy-eating.webp",
+                  "alt": "A boy enjoying a meal"
+                },
+                {
+                  "tag": "Education",
+                  "title": "Story Time",
+                  "image": "/images/gallery-teacher-reading.webp",
+                  "alt": "A teacher reading a story to children"
+                },
+                {
+                  "tag": "Relief",
+                  "title": "Relief Supplies",
+                  "image": "/images/gallery-relief-aid.webp",
+                  "alt": "Volunteers handing relief supplies"
+                },
+                {
+                  "tag": "Education",
+                  "title": "Reading Together",
+                  "image": "/images/gallery-girls-reading.webp",
+                  "alt": "Girls reading together in a classroom"
+                },
+                {
+                  "tag": "Community",
+                  "title": "The Walk to School",
+                  "image": "/images/gallery-kids-walking.webp",
+                  "alt": "Children walking to school"
+                },
+                {
+                  "tag": "Environment",
+                  "title": "Growing Hope",
+                  "image": "/images/gallery-plant-in-hands.webp",
+                  "alt": "Hands holding a young plant"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "NGOTestimonials1": {
+              "label": "Testimonials",
+              "title": [
+                {
+                  "text": "Reviews from ",
+                  "highlight": false
+                },
+                {
+                  "text": "Our Supporters",
+                  "highlight": true
+                }
+              ],
+              "description": "Real stories, real impact. Hear from the donors and volunteers who make our work possible.",
+              "stars": 5,
+              "ratingLabel": "Rated 5 out of 5",
+              "items": [
+                {
+                  "quote": "Every update shows exactly where my donation goes. Seeing children back in school because of this team makes giving feel truly meaningful.",
+                  "name": "Lauren Wilson",
+                  "role": "Monthly Donor",
+                  "image": "/images/supporter-lauren.webp"
+                },
+                {
+                  "quote": "Their transparency and commitment to making a real difference is unmatched. I'm proud to support a cause that brings hope to so many lives.",
+                  "name": "Arc Joan",
+                  "role": "Verified Supporter",
+                  "image": "/images/supporter-arc.webp"
+                },
+                {
+                  "quote": "Volunteering at the health camp was life changing. The care and respect they show every family is something I will never forget.",
+                  "name": "Daniel Carter",
+                  "role": "Volunteer",
+                  "image": "/images/supporter-daniel.webp"
+                },
+                {
+                  "quote": "I sponsor a child's schooling through CareHaven. The progress reports and letters I receive remind me every month how much a small gift can change.",
+                  "name": "Neha Verma",
+                  "role": "Child Sponsor",
+                  "image": "/images/supporter-neha.webp"
+                },
+                {
+                  "quote": "Our company partnered with CareHaven for a food drive. They organised everything with care, and every meal reached the families who needed it.",
+                  "name": "Rahul Mehta",
+                  "role": "Corporate Partner",
+                  "image": "/images/supporter-rahul.webp"
+                }
+              ],
+              "previousLabel": "Previous review",
+              "nextLabel": "Next review",
+              "goToLabel": "Show review {n}"
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "NGOFaq1": {
+              "label": "FAQs",
+              "title": [
+                {
+                  "text": "Frequently Asked ",
+                  "highlight": false
+                },
+                {
+                  "text": "Questions",
+                  "highlight": true
+                }
+              ],
+              "description": "Answers to common questions about our programs, donating and volunteering with CareHaven Foundation.",
+              "items": [
+                {
+                  "question": "What is the main focus of your organization?",
+                  "answer": "We support underprivileged children and communities through education, healthcare and essential resources, creating equal opportunities so every child can learn, grow and build a brighter future."
+                },
+                {
+                  "question": "How can I support your cause?",
+                  "answer": "You can donate, sponsor a child, volunteer your time or share our work with friends and family. Every contribution, big or small, helps us reach more children and families."
+                },
+                {
+                  "question": "Are my donations tax deductible?",
+                  "answer": "Yes. Donations to CareHaven Foundation are eligible for tax benefits as per applicable laws, and you receive an official receipt by email after every donation."
+                },
+                {
+                  "question": "How do you select the communities or children to support?",
+                  "answer": "We work with local schools, community leaders and field volunteers to identify the families in greatest need, and review each case so support reaches the children who need it most."
+                },
+                {
+                  "question": "Can I volunteer with your organization?",
+                  "answer": "Absolutely. We welcome volunteers for teaching, health camps, food drives and events. Send us your interests and availability using the form below and our team will get in touch."
+                }
+              ],
+              "aside": {
+                "title": "Still Have Questions?",
+                "text": "Our team is happy to help you choose a cause, set up a monthly donation or plan your first volunteer day.",
+                "image": {
+                  "src": "/images/gallery-girls-reading.webp",
+                  "alt": "Girls reading together in a classroom"
+                },
+                "button": {
+                  "label": "Talk to Our Team",
+                  "href": "#contact"
+                }
+              }
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "NGOContact1": {
+              "label": "Get in Touch",
+              "title": [
+                {
+                  "text": "Ready to Get More ",
+                  "highlight": false
+                },
+                {
+                  "text": "Information?",
+                  "highlight": true
+                }
+              ],
+              "description": "We'd love to hear from you. Reach out to learn more about our programs, volunteer opportunities or how you can support our mission.",
+              "form": {
+                "title": "Send Us a Message",
+                "description": "Tell us how you would like to help and our team will get back to you soon."
+              }
+            }
+          }
+        },
+        "EnquiryForm": {
+          "variants": {
+            "NGOEnquiryForm1": {
+              "fields": {
+                "name": "Your Name*",
+                "phone": "Phone Number*",
+                "email": "Email Address*",
+                "interest": "I Would Like To*",
+                "cause": "Cause I Care About",
+                "message": "Write Your Message*"
+              },
+              "interestOptions": [
+                "Make a Donation",
+                "Sponsor a Child",
+                "Volunteer With You",
+                "Partner With You",
+                "Ask a Question"
+              ],
+              "causeOptions": [
+                "Education Support",
+                "Hunger Relief",
+                "Women Empowerment",
+                "Health & Nutrition",
+                "Animal Welfare",
+                "Disaster Relief"
+              ],
+              "button": "Send Us Message",
+              "sending": "Sending...",
+              "successTitle": "Thank you, {name}!",
+              "success": "Your message has been sent. Our team will get back to you soon.",
+              "closeLabel": "Close"
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Header": "NGOHeader1",
+          "Footer": "common.Footer"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Header",
+                "component": "NGOHeader1"
+              },
+              {
+                "key": "Hero",
+                "component": "NGOHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "NGOAboutUs1"
+              },
+              {
+                "key": "Impact",
+                "component": "NGOImpact1"
+              },
+              {
+                "key": "Causes",
+                "component": "NGOCauses1"
+              },
+              {
+                "key": "Gallery",
+                "component": "NGOGallery1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "NGOTestimonials1"
+              },
+              {
+                "key": "Faq",
+                "component": "NGOFaq1"
+              },
+              {
+                "key": "Contact",
+                "component": "NGOContact1"
+              },
+              {
+                "key": "EnquiryForm",
+                "component": "NGOEnquiryForm1"
+              },
+              {
+                "key": "Footer",
+                "component": "common.Footer"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

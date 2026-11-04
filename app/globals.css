@@ -1,26 +1,80 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+  --font-primary: Arial, sans-serif;
+  --font-heading: Georgia, serif;
+  --font-display: Georgia, serif;
+  --font-quote: Georgia, serif;
+  --font-alt: Arial, sans-serif;
+  --font-dm: Arial, sans-serif;
+  --font-form: Arial, sans-serif;
+  --font-nunito-face: Arial, sans-serif;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* CareHaven landing theme: the logo's deep navy and warm orange, with its leaf green and a sunny yellow on dark sections */
+  /* Brand */
+  --color-primary: #e5520e;
+  --color-primary-strong: #c2410c;
+  --color-navy: #06335c;
+  --color-navy-deep: #04223f;
+  --color-green: #4f9a1a;
+  --color-green-soft: #e8f3dc;
+  --color-sun: #fed851;
+  --color-star: #f6a823;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Text */
+  --color-heading: #0b2a4a;
+  --color-text: #4d5563;
+  --color-text-muted: #5b6270;
+  --color-text-placeholder: #8d929b;
+  --color-white: #ffffff;
+
+  /* Backgrounds and borders */
+  --color-bg-main: #ffffff;
+  --color-bg-alt: #fdf7f2;
+  --color-bg-chip: #fdeadf;
+  /* Shown on both sides of the page when the screen is wider than 1920px (or the browser is zoomed out). */
+  --color-bg-backdrop: #f5f5f5;
+  --color-border: #ede4dc;
+
+  /* Overlays and shadows */
+  --color-primary-70: rgba(229, 82, 14, 0.7);
+  /* navy wash over the hero and impact photos */
+  --color-navy-95: rgba(4, 34, 63, 0.95);
+  --color-navy-90: rgba(4, 34, 63, 0.9);
+  --color-navy-60: rgba(4, 34, 63, 0.6);
+  --color-navy-20: rgba(4, 34, 63, 0.2);
+  --color-navy-0: rgba(4, 34, 63, 0);
+  --color-shadow-card: rgba(6, 51, 92, 0.16);
+  --color-shadow-menu: rgba(6, 51, 92, 0.35);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-15: rgba(255, 255, 255, 0.15);
+  --color-white-20: rgba(255, 255, 255, 0.2);
+  --color-white-70: rgba(255, 255, 255, 0.7);
+  --color-white-85: rgba(255, 255, 255, 0.85);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background-color: var(--color-bg-backdrop);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
